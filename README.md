@@ -35,7 +35,6 @@ I then used the output `objpoints` and `imgpoints` to compute the camera calibra
 
 To demonstrate this step, I will describe how I apply the distortion correction to one of the test images like this one:
 
-Example undistorted Image:
 ![Undistorted Image](./output_images/undistortedImage.png)
 
 #### 2. Describe how (and identify where in your code) you used color transforms, gradients or other methods to create a thresholded binary image.  Provide an example of a binary image result.
@@ -94,13 +93,13 @@ I verified that my perspective transform was working as expected by drawing the 
 
 #### 4. Describe how (and identify where in your code) you identified lane-line pixels and fit their positions with a polynomial?
 
-I did this in lines # through # in my code in `Advance Lane Lines.ipynb`
+I did this in my code in `Advance Lane Lines.ipynb`
 
 Then I did some other stuff and fit my lane lines with a 2nd order polynomial kinda like this:
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 
-I did this in lines # through # in my code in `Advance Lane Lines.ipynb`, in cell with title: `6. Determine the curvature of the lane and vehicle position with respect to center.`
+I did this in my code in `Advance Lane Lines.ipynb`, in cell with title: `6. Determine the curvature of the lane and vehicle position with respect to center.`
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
