@@ -103,7 +103,7 @@ I did this in my code in `Advance Lane Lines.ipynb`, in cell with title: `6. Det
 
 #### 6. Provide an example image of your result plotted back down onto the road such that the lane area is identified clearly.
 
-I implemented this step in title cell `8. Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.` in my code in `Advance Lane Lines.ipynb` in the function `estimationsLane()`.  Here is an example of my result on the tests image:
+I implemented this step in title cell `8. Output visual display of the lane boundaries and numerical estimation of lane curvature and vehicle position.` in my code in `Advance Lane Lines.ipynb` in the function `estimationsLane()`.  Here is the result on the tests images:
 
 ![estimation Lane](./output_images/estimationLane.png)
 
