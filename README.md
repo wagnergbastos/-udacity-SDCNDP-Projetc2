@@ -117,13 +117,13 @@ I implemented this step in title cell `8. Output visual display of the lane boun
 
 The debug mode was used to find out which frames did not have the lines recognized correctly (1040 and 1042).
 
-In debug mode (debug = True), frames with recognition errors are located. A debug video is created: [link to my video debug] (./output_images/project_video_debug.mp4)
+In debug mode (debug = True), frames with recognition errors are located. A debug video is created: [link to my video debug](./output_images/project_video_debug.mp4)
 
 The frames with errors have their frame number registered in the variable "frames_errors" and their recorded images:
 
-![frame Error 1040] (./output_images/frameError1040.jpg)
+![frame Error 1040](./output_images/frameError1040.jpg)
 
-![frame Error 1042] (./output_images/frameError1042.jpg)
+![frame Error 1042](./output_images/frameError1042.jpg)
 
 3 minimum and maximum limits of the coordinates of the adjustment lines (distance_top, distance_middle, distance_bottom) were calculated and recorded in "distances_limits.p".
 
@@ -133,9 +133,9 @@ In this way, any line (left or right) that does not fit the limits is discarded 
 
 Before recording the video, the left and right lines of the tracks were validated with the lane_check (left_fitx, right_fitx) function.
 
-![frame Ok 1040] (./output_images/frameOk1040.jpg)
+![frame Ok 1040](./output_images/frameOk1040.jpg)
 
-![frame Ok 1042] (./output_images/frameOk1042.jpg)
+![frame Ok 1042](./output_images/frameOk1042.jpg)
 
 Here's a [link to my video result](./output_images/project_video.mp4)
 
