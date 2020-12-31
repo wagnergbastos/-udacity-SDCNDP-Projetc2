@@ -121,4 +121,18 @@ Here's a [link to my video result](./output_images/project_video.mp4)
 
 #### 1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-For the Project video, the techniques described worked well. In conclusion, the set of image analysis techniques proved to be a very robust way of identifying lanes.
+Detecting white and dashed lines turned out to be more difficult than detecting yellow lines, as shadows and changes in the color of the runway negatively influenced the recognition of the lanes.
+
+This implementation will fail under adverse conditions to the test video, such as: heavy traffic, lane change, tunnels, snow, rain, fog, night, holes, painted signs, intersections, etc.
+
+Applying a lot of effort in recognizing the tracks of a specific video can create an over-adjustment. Therefore, I used the limits on the adjustment lines to correct erroneous acknowledgments. These limits can be updated to cover other videos.
+
+A convolutional neural network can be a more robust and generic solution, depending on the amount and variety of training data.
+
+The advantage of using computer vision is that you do not need a large set of training data, as long as you have control of the type of lane to be recognized.
+
+Image processing has its limits for determining the thresholds of the regions of interest to be recognized. The use of geometric calculations for adjustments and shape recognition is necessary to obtain success.
+
+The performance of the algorithm is not a problem in videos already recorded, but in real time recognition can be a priority.
+
+My interest in this type of recognition is to apply in my master's degree about eye tracking of drivers in a simulated environment. I need to recognize cars and lanes from a driving simulator. Computer vision seems to be a viable solution.
