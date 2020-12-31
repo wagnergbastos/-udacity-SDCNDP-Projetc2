@@ -133,6 +133,8 @@ In this way, any line (left or right) that does not fit the limits is discarded 
 
 Before recording the video, the left and right lines of the tracks were validated with the lane_check (left_fitx, right_fitx) function.
 
+The results of corrections in fames with errors are:
+
 ![frame Ok 1040](./output_images/frameOk1040.jpg)
 
 ![frame Ok 1042](./output_images/frameOk1042.jpg)
